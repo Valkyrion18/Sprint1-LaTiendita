@@ -1,0 +1,132 @@
+{
+  "productos": [
+    {
+      "nombre": "Aguacate",
+      "imagen": "./images/dbProductos/Name=Aguacate.jpg",
+      "precio": 2000,
+      "cantidad": 33,
+      "descripcion": "El aguacate tiene una pulpa cremosa y de color verde que encierra una gran semilla marrón. Su sabor suave y consistencia cremosa lo convierten en el cómplice ideal para un montón de recetas y combinaciones para untar tostadas, improvisar ensaladas, preparar un guacamole o acompañar a cualquier cereal o verdura.",
+      "id": 1
+    },
+    {
+      "nombre": "Cocacola sin Azúcar",
+      "imagen": "./images/dbProductos/Name=Cocacola sin azucar.jpg",
+      "precio": 3000,
+      "cantidad": 44,
+      "descripcion": "La nueva Coca-Cola Sin Azúcar sustituye a la versión de Coca-Cola Zero. Contiene aspartame y acesulfame potásico: 2 edulcorantes que se usan comúnmente juntos para potenciar su dulzor. Esto permite que con pequeñas cantidades añadidas se logren sabores intensamente dulces. Los más conocidos son el aspartame, sacarina, acesulfame K, sucralosa, neotame, entre otros permitidos en el mercado.",
+      "id": 2
+    },
+    {
+      "nombre": "Cocacola",
+      "imagen": "./images/dbProductos/Name=Cocacola.jpg",
+      "precio": 3800,
+      "cantidad": 80,
+      "descripcion": "Coca-Cola (conocida comúnmente como Coca en muchos países hispanohablantes; en inglés también conocida como Coke) es una bebida azucarada gaseosa vendida a nivel mundial en tiendas, restaurantes y máquinas expendedoras en más de doscientos países o territorios. Es el principal producto de The Coca-Cola Company, de origen estadounidense",
+      "id": 3
+    },
+    {
+      "nombre": "Colgate",
+      "imagen": "./images/dbProductos/Name=Colgate.jpg",
+      "precio": 6800,
+      "cantidad": 1000,
+      "descripcion": "Colgate es una marca registrada por la empresa estadounidense Colgate-Palmolive de productos de cuidado oral tales como pasta dental, cepillos dentales, enjuague bucal e hilo dental. La empresa originalmente vendía jabones, velas y almidón desde 1873 incursionó en el mercado del cuidado oral, 16 años después de la muerte de su fundador, el empresario británico William Colgate.",
+      "id": 4
+    },
+    {
+      "nombre": "Fabuloso",
+      "imagen": "./images/dbProductos/Name=Fabuloso.jpg",
+      "precio": 5500,
+      "cantidad": 120,
+      "descripcion": "El Limpiador Antibacterial Fabuloso está elaborado con agua, tensoactivos aniónicos, tensoactivo no iónico, perfume y colorante. No contiene fósforo y tiene un suave aroma de bebe con una fragancia intensa. El Limpiador Fabuloso es multiuso, limpia y perfuma toda la casa, no necesita enjuagarse porque no deja residuos.",
+      "id": 5
+    },
+    {
+      "nombre": "Huevos",
+      "imagen": "./images/dbProductos/Name=Huevos.jpg",
+      "precio": 700,
+      "cantidad": 550,
+      "descripcion": "Los huevos de las aves constituyen un alimento habitual en la alimentación de los humanos. Se presentan protegidos por una cáscara y son ricos en proteínas (principalmente albúmina, que es la clara o parte blanca del huevo) y lípidos. Son un alimento de fácil digestión, componente principal de múltiples platos dulces y salados, y una parte imprescindible en muchos otros debido a su propiedad aglutinante.",
+      "id": 6
+    },
+    {
+      "nombre": "Jitomate Bola",
+      "imagen": "./images/dbProductos/Name=Jitomate Bola.jpg",
+      "precio": 800,
+      "cantidad": 267,
+      "descripcion": "Como su nombre lo indica, es un tomate redondo, grande y con mucha pulpa (carnoso), ideal para las salsas, ensaladas y para emparedados. El diámetro promedio del tomate bola oscila entre 54 a 90 mm. Sin embargo, la alta oferta de este tipo de tomate en el mercado ha bajado sus precios.",
+      "id": 7
+    },
+    {
+      "nombre": "Limón",
+      "imagen": "./images/dbProductos/Name=Limon.jpg",
+      "precio": 600,
+      "cantidad": 400,
+      "descripcion": "El limón es redondo, ligeramente alargado, posee una corteza fuerte y resistente, es de color amarillo intenso cuando está en plena madurez, brillante que al ser cortada desprende un aroma especial. La pulpa es de color amarillo pálido, jugosa y de sabor ácido dividida en gajos.",
+      "id": 8
+    },
+    {
+      "nombre": "Manzana Golden",
+      "imagen": "./images/dbProductos/Name=Manzana Golden.jpg",
+      "precio": 1500,
+      "cantidad": 467,
+      "descripcion": "La manzana Golden también tiene una piel brillante y dorada, al igual que la manzana Royal Gala. Es crujiente y bastante dulce. Uso principal: Es buena para comer y también se utiliza mucho para hacer tartas de manzana. Características: Tiene una piel roja oscura con un dulzor medio.",
+      "id": 9
+    },
+    {
+      "nombre": "Mc Cormick Mayonesa",
+      "imagen": "./images/dbProductos/Name=Mc Cormick Mayonesa.jpg",
+      "precio": 8000,
+      "cantidad": 346,
+      "descripcion": "Pese a ser light, es un producto alto en calorías, grasas saturadas y sodio. De tocino, solamente tiene el saborizante. Contiene glutamato monosódico que induce al sobreconsumo. Contiene 150 miligramos (mg) de sodio por porción (15 gramos), equivalente al 7.5% de la cantidad máxima recomendada que, aunque parece una cifra pequeña, contribuye al sobreconsumo de sodio.",
+      "id": 10
+    },
+    {
+      "nombre": "Naranja",
+      "imagen": "./images/dbProductos/Name=Naranja.jpg",
+      "precio": 650,
+      "cantidad": 579,
+      "descripcion": "La naranja es un hesperidio, tipo de fruto característico de los cítricos. Su exocarpo tiene vesículas con aceites esenciales, el mesocarpo es de color blanco y el endocarpo o pulpa tiene tricomas con zumo. Su sabor es dulce y ácido, agradable. Casi el 90% de su contenido es agua.",
+      "id": 11
+    },
+    {
+      "nombre": "Nopal",
+      "imagen": "./images/dbProductos/Name=Nopal.jpg",
+      "precio": 600,
+      "cantidad": 459,
+      "descripcion": "El nopal, -o nopalli, es una planta mexicana que pertenece a la familia de las cactáceas. También es conocido comúnmente como palera o chumbera aunque su nombre científico es Opuntia ficus-indica. El nopal, de textura dura, color verde y cuerpo espinoso, se encuentra desde el norte hasta el centro de México.",
+      "id": 12
+    },
+    {
+      "nombre": "Pan Bimbo",
+      "imagen": "./images/dbProductos/Name=Pan Bimbo.jpg",
+      "precio": 3800,
+      "cantidad": 456,
+      "descripcion": "Contempla la producción de su pan, exclusivamente con harina de trigo importada de primera calidad y procesada en plantas con tecnología de punta, únicas en Colombia, donde el producto nunca entra en contacto con las manos de los operarios, tanto en el momento del “amase” por decirlo así, como durante los procesos de horneado, corte y mucho menos, durante el empaque.",
+      "id": 13
+    },
+    {
+      "nombre": "Pechuga de Pavo",
+      "imagen": "./images/dbProductos/Name=Pechuga de pavo.jpg",
+      "precio": 13500,
+      "cantidad": 378,
+      "descripcion": "Es rico en ácidos grasos, que son cardiosaludables, por lo tanto ayudan a protegerla salud del corazón. Tiene un contenido en colesterol muy bajo. Cuenta con un alto contenido en hierro. Rica en vitaminas del grupo B.",
+      "id": 14
+    },
+    {
+      "nombre": "Tomate Verde",
+      "imagen": "./images/dbProductos/Name=Tomate verde.png",
+      "precio": 700,
+      "cantidad": 789,
+      "descripcion": "El tomate verde es una planta de tipo arbustivo, de porte bajo y con una altura de 1 m aproximadamente. Tiene un tallo largo y hojas alternas, produce flores de un solo pétalo de color amarillo que aparecen alrededor de 60 días después de la siembra y dan origen a un fruto redondo que varía en tamaño según la variedad.",
+      "id": 15
+    },
+    {
+      "nombre": "Tomate",
+      "imagen": "./images/dbProductos/Name=Tomate.jpg",
+      "precio": 800,
+      "cantidad": 565,
+      "descripcion": "El fruto del tomate es una baya, gruesa y carnosa con dos o más segmentos, de diferentes formas y colores según la variedad. Su peso varía entre unos pocos miligramos y 600 gramos. Generalmente es de color rojo, aunque también existen amarillos. El diámetro de los frutos varía entre 3 y 16cm.",
+      "id": 16
+    }
+  ]
+}

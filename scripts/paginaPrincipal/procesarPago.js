@@ -28,5 +28,6 @@ export  async function procesarSolicitudPago(){
 
         }
     })
+    localStorage.removeItem('Total')
     
 }

@@ -6,7 +6,7 @@ let btnNombre = document.getElementById('btnNombre')
 let btnEditar = document.getElementById('btnEditar')
 let btnMostrar = document.getElementById('btnMostrarProductos')
 let btnQuitarLista = document.getElementById('btnEsconderProductos')
-const ul = document.querySelector('.lista-productos');
+const table = document.querySelector('.lista-productos');
 
 // const URL_PRODUCTOS = 'http://localhost:4000/productos'
 
@@ -25,31 +25,32 @@ email.addEventListener('input', () => {
 // Petición GET - Mostrar lista productos en Pantalla
 const listarProductos = async () => {
 
-    // const respuesta = await fetch(URL_PRODUCTOS);
-    // const data = await respuesta.json();
+    table.innerHTML = `
+        <thead>
+        <tr>
+            <th scope="col">Imagen</th>
+            <th scope="col">Nombre</th>
+            <th scope="col">Precio</th>
+            <th scope="col">Cantidad</th>
+        </tr>
+        </thead>
+        `
     const data = await cargarDatosURL()
     data.forEach(element => {
+        
         const { id, nombre, imagen_url, precio, cantidad} = element;
-        ul.innerHTML += `
-        <li class="list-group-item">
-            <img src=${imagen_url} width="50px"></img>
-            <span class="lead">${nombre}</span>
-            <span class="lead"><b>Precio:</b>$ ${precio}</span>
-            <button id=${id} class="btn btn-dark btm-sm float-end ">
-                Borrar
-            </button>
-        </li>
-        `
-        // ul.innerHTML += `
-        // <tr class="list-group-item">
-        //     <td><img src=${imagen_url} width="50px"></img></td>
-        //     <td><span class="lead">${nombre}</span></td>
-        //     <td><span class="lead"><b>Precio:</b>$ ${precio}</span></td>
-        //     <td><span class="lead">${cantidad}</span></td>
-        //     <td><button id=${id} class="btn btn-dark btm-sm float-end ">Borrar</button></td>
-        // </tr>
-        // `
-    });
+        table.innerHTML += `
+            <tbody class="table-striped"> 
+                <tr>
+                    <td><img src=${imagen_url} width="100" height="100" alt=""/></td>
+                    <td>${nombre}</td>
+                    <td>${precio}</td>
+                    <td>${cantidad}</td>
+                    <td><button id=${id} class="btn btn-dark btm-sm float-end ">Borrar</button>                        
+                </tr>
+            </tbody>
+         `
+     });
 }
 
 // Invocacion de evento para mostrar elementos
@@ -97,8 +98,7 @@ btnNombre.addEventListener('click', async () => {
     const idContenedorTarjetasProd= document.getElementById('idContenedorTarjetasProd');
     let name = document.getElementById('inputNombre').value;
 
-    const resp = await fetch(URL_PRODUCTOS);
-    const lista = await resp.json()
+    const lista = await cargarDatosURL()
     const elementoBuscado = lista.find(u => u.nombre.toLocaleLowerCase() === name.toLocaleLowerCase())
 
     idContenedorTarjetasProd.innerHTML =''
@@ -156,7 +156,7 @@ btnEditar.addEventListener('click', async () => {
 })
 
 // Petición DELETE - Eliminar un producto desde el listado desplegado
-ul.addEventListener('click', async (e) => {
+table.addEventListener('click', async (e) => {
     const btnEliminar = e.target.classList.contains('btn-dark');
 
     if (btnEliminar === true) {

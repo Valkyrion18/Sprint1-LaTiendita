@@ -2,7 +2,7 @@
 
 async function cargarDatosURL() {
 
-    const URL_PRENDAS = 'http://localhost:4000/productos/'
+    const URL_PRENDAS = 'https://latienditaproductos.herokuapp.com/productos/'
 
     const resp = await fetch(URL_PRENDAS)
     const datos = await resp.json()

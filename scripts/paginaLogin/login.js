@@ -2,7 +2,7 @@
 
 let formulario = document.querySelector('.formulario-users');
 
-const endpoint = 'http://localhost:4001/users'
+const endpoint = 'https://la-tiendita-usuarios.herokuapp.com/users/'
 const resp = await fetch(endpoint)
 const datos = await resp.json()
 
